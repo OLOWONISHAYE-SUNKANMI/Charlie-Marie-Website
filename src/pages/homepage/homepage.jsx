@@ -1,11 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Header from '../../components/header/header'
+import Hero from '../../components/hero/hero';
+
+
 
 export default function homepage() {
   return (
-    <>
-      
-    </>
+  
+   <>
+    <div className='w-full h-100'>
+      homepage
+    </div>
+   </>
   )
 }

@@ -1,0 +1,20 @@
+.hero{
+    background-image: url('/images/background.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 767px) {
+    .hero-container{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 8rem;
+        img{
+            height: 2rem;
+        }
+        .write-up{
+            width: 100%;
+        }
+    }
+
+}

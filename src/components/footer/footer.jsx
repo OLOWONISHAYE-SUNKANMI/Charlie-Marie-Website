@@ -6,7 +6,7 @@ export default function footer() {
     <>
         <div className='w-full'>
       <div>
-        
+          footer
       </div>
 
       <div>

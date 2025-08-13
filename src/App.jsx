@@ -5,9 +5,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './App.css'
-import Home from './pages/homepage/homepage.jsx' 
-import About from './pages/about/about.jsx'
-import Layout from './Layout.jsx' 
+import Home from './pages/homepage/homepage' 
+import About from './pages/about/about'
+import Layout from './Layout' 
 
 
 function App() {
@@ -17,9 +17,7 @@ function App() {
          <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          
-          
-          
+              
           </Route>
 
          

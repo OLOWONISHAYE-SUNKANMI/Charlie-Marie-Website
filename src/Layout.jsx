@@ -1,14 +1,16 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Footer from './components/footer/footer';
 import Header from './components/header/header'
+import Navbar from './components/Navbar'
+import './Layout.css'
+
 
 export default function Layout() {
   return (
-    <div>
+    <div className='hero'>
       <Header />
-      <Navbar /> 
+       <Navbar />
       <Outlet />
       <Footer />
     </div>

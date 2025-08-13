@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Navigation Links */}
         <ul className='flex items-center justify-between ml-30 text-white font-semibold'> 
           <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Home</Link>
-          <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>About</Link>
+          <Link to="/about" className='mx-4 hover:text-[#620000] font-poppins'>About</Link>
           <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Gallery</Link>
           <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Student's Portal</Link>
           <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Contact</Link>   
