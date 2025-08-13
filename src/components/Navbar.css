@@ -1,0 +1,11 @@
+.search-input::placeholder {
+  font-size: 12px;
+  color: gray;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  margin-bottom: 5px;
+}
+
+.search-input:focus::placeholder {
+  transform: translateX(100%);
+  opacity: 0;
+}
