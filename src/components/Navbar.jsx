@@ -23,7 +23,7 @@ export default function Navbar() {
 
 
         {/* Search Bar */}
-        <div className='search-bar' style={{ marginLeft: 'auto', marginRight: '20px' }}>
+        <div className='search-bar' style={{ marginLeft: 'auto', marginRight: '30px' }}>
           <input type="text" placeholder="Search" className='search-input p-3 bg-[#FFFFFF] w-60 rounded-lg font-grey-100 font-xs item-center'/>
         </div>
       </nav>
