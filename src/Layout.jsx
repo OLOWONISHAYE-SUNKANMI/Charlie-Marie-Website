@@ -8,11 +8,16 @@ import './Layout.css'
 
 export default function Layout() {
   return (
-    <div className='hero'>
+    <>
+    <div className='layout'>
       <Header />
        <Navbar />
       <Outlet />
-      <Footer />
     </div>
+    <div>
+       <Footer />
+    </div>
+    </>
+  
   )
 }

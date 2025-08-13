@@ -8,7 +8,7 @@ export default function homepage() {
   
    <>
     <div className='w-full h-100'>
-      homepage
+     <Hero />
     </div>
    </>
   )
