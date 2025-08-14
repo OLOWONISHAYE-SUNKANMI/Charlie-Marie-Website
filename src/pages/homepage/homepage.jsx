@@ -3,15 +3,13 @@ import Hero from '../../components/hero/hero';
 import Info from '../../components/info/info';
 
 
+
 export default function homepage() {
   return (
-   <>
-    <div className='w-full h-80'>
+    <div>
      <Hero />
+      <Info />
     </div>
-    <div> 
-       <Info />
-    </div>
-   </>
+   
   )
 }

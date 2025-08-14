@@ -1,8 +1,10 @@
 .hero{
     background-image: url('/images/background.jpg');
-    width: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 66vh; 
 }
 @media (max-width: 767px) {
     .hero-container{

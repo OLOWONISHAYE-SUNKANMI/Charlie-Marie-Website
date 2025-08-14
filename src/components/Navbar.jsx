@@ -5,13 +5,13 @@ import './Navbar.css'; // Assuming you have a CSS file for styling
 export default function Navbar() {
   return (
     <>
-      <nav className="bg-[#115237] w-4/5 h-25 items-center flex ml-40 my-10 rounded-xl shadow-lg ">
+      <nav className="bg-[#115237] w-full h-25 items-center flex">
         <div className="flex items-center">
           <img src="logo.png" alt="logo" className='w-15 h-15 ml-20'/>
         </div>
 
         {/* Navigation Links */}
-        <ul className='flex items-center justify-between ml-30 text-white font-semibold'> 
+        <ul className='flex items-center justify-between ml-70 text-white font-semibold'> 
           <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Home</Link>
           <Link to="/about" className='mx-4 hover:text-[#620000] font-poppins'>About</Link>
           <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Gallery</Link>

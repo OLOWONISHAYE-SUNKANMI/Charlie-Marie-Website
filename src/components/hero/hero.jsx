@@ -3,13 +3,49 @@ import './hero.css'
 
 export default function hero() {
   return (
-    <>
-      <div className='justify-center items-center text-center my-10'>
-        <h3 className='font-poppins font-bold text-3xl mt-30 text-[#ffffff]'>Welcome to</h3>
-        <h1 className='font-poppins font-bold text-5xl mt-3 text-[#115237]'>Charlie Marie Group of Schools</h1>
-        <h3 className='font-poppins font-bold text-2xl mt-3 text-[#000]'>WAEC AND GOVT. APPROVED</h3>
-        <p className='font-poppins font-bold text-sm mt-3 text-[#ffffff]'> ...catch them young to building a brighter future</p>
+     <div className="hero">
+      <div className="hero-container write-up py-[5rem] px-[5rem] text-center">
+        <h3 className="text-3xl font-bold text-white mb-7">Welcome to</h3>
+        <p className="font-extrabold text-[#115237] text-5xl">
+          Charlie Marie Group of School
+        </p>
+        <br/>
+        <p className="write-up text-[#620000] text-lg font-bold mt-3 text-center">
+         GOVT. AND WAEC APPROVED
+        </p>
+
+          <p className="write-up text-[#FFFFFF] text-lg font-bold mt-3 text-center">
+         ...catch them young to bulding a brighter future
+        </p>
       </div>
-    </>
+
+      <div className='flex justify-center align-center py-[2rem] gap-6 '>
+          <div className='p-5 bg-[red] rounded-lg'>
+              <h3 className='text-white font-semibold font-poppins text-[15px]'>PRE-SCHOOL</h3>
+          </div>
+
+          <div className='p-5 bg-[green] rounded-lg'>
+              <h3 className='text-white font-semibold font-poppins text-[16px]'>NURSERY SCHOOL</h3>
+          </div>
+
+          <div className='p-5 bg-[yellow] rounded-lg'>
+              <h3 className='text-white font-semibold font-poppins text-[16px]'>PRIMARY SCHOOL</h3>
+          </div>
+
+          <div className='p-5 bg-[brown] rounded-lg'>
+              <h3 className='text-white font-semibold font-poppins text-[16px]'>SECONDARY SCHOOL</h3>
+          </div>
+
+          <div className='p-5 bg-[blue] rounded-lg'>
+              <h3 className='text-white font-semibold font-poppins text-[16px]'>VOCATIONAL SCHOOL</h3>
+          </div>
+
+          <div className='p-5 bg-[orange] rounded-lg'>
+              <h3 className='text-white font-semibold font-poppins text-[16px]'>SPORT ACADEMY</h3>
+          </div>
+
+          
+      </div>
+    </div>
   )
 }

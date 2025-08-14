@@ -9,14 +9,13 @@ import './Layout.css'
 export default function Layout() {
   return (
     <>
-    <div className='layout'>
+    <div>
       <Header />
        <Navbar />
       <Outlet />
+      {/* <Footer /> */}
     </div>
-    <div>
-       <Footer />
-    </div>
+   
     </>
   
   )
