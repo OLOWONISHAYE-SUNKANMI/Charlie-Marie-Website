@@ -1,10 +1,13 @@
 import React from 'react'
 import './hero.css'
+import { Fade } from 'react-awesome-reveal';
+
 
 export default function hero() {
   return (
      <div className="hero">
-      <div className="hero-container write-up py-[5rem] px-[5rem] text-center">
+      <Fade direction='down'>
+           <div className="hero-container write-up py-[5rem] px-[5rem] text-center">
         <h3 className="text-3xl font-bold text-white mb-7">Welcome to</h3>
         <p className="font-extrabold text-[#115237] text-5xl">
           Charlie Marie Group of School
@@ -46,6 +49,8 @@ export default function hero() {
 
           
       </div>
+      </Fade>
+   
     </div>
   )
 }
