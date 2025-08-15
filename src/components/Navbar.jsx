@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       <nav className="bg-[#115237] w-full h-25 items-center flex">
         <div className="flex items-center">
-          <img src="logo.png" alt="logo" className='w-15 h-15 ml-20'/>
+          <img src="https://res.cloudinary.com/depeqzb6z/image/upload/v1755201313/logo_rarwwq.png" alt="logo" className='w-15 h-15 ml-20'/>
         </div>
 
         {/* Navigation Links */}
