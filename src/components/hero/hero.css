@@ -1,3 +1,6 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 .hero{
     background-image: url('https://res.cloudinary.com/depeqzb6z/image/upload/v1755201311/background_br5gvm.webp');
     background-size: cover;

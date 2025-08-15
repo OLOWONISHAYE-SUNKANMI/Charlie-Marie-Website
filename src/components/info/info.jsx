@@ -11,7 +11,7 @@ export default function info() {
       </div>
       </Fade>
         
-      <Slide direction='right'>
+      <Slide direction='down'>
          <div className='ml-30'>
           <h1 className='mt-20 font-extrabold ml-font-poppins text-3xl text-[#620000] '>About the School</h1>
           <h2 className='mt-2 font-semibold font-poppins text-2xl text-[#115237]'>Who We Are</h2>
