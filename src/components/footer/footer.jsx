@@ -22,7 +22,7 @@ export default function footer() {
         </div>
 
           <div className='justify-center items-center flex bg-[#115237] w-[100%]'>
-            <p className='text-white '> Copyright 2025 @ All right reserved - Charlie Marie Group of School </p>
+            <p className='text-white '> Copyright 2025 @ All right reserved - Charlie Marie Group of School.  </p>
           </div>
       </div>
     </>
