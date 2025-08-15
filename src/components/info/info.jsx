@@ -7,7 +7,7 @@ export default function info() {
     <div className='flex justify-center ml-30 py-5'>
       <Fade direction='top-left'>
           <div className='py-5 mr-10'>
-          <img src='/images/info.png' alt='info' className='w-full m-20'/>
+          <img src='https://res.cloudinary.com/depeqzb6z/image/upload/v1755201316/info_i99svf.png' alt='info' className='w-full m-20'/>
       </div>
       </Fade>
         
