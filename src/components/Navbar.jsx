@@ -1,36 +1,146 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navbar.css'; // Assuming you have a CSS file for styling
+import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { FiSearch, FiMenu, FiX } from 'react-icons/fi';
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const navbarRef = useRef(null);
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+  // Close menu on resize if window becomes large
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
-    <>
-      <nav className="bg-[#115237] w-full h-25 items-center flex">
-        <div className="flex items-center">
-          <img src="https://res.cloudinary.com/depeqzb6z/image/upload/v1755201313/logo_rarwwq.png" alt="logo" className='w-15 h-15 ml-20'/>
-        </div>
+    <nav 
+      ref={navbarRef}
+      className="bg-[#115237] w-full h-20 flex items-center justify-between px-4 md:px-8 relative"
+    >
+      {/* Logo */}
+      <div className="flex items-center">
+        <Link to="/">
+          <img 
+            src="https://res.cloudinary.com/depeqzb6z/image/upload/v1755201313/logo_rarwwq.png" 
+            alt="logo" 
+            className='w-12 h-12 md:w-16 md:h-16'
+          />
+        </Link>
+      </div>
 
-        {/* Navigation Links */}
-        <ul className='flex items-center justify-between ml-70 text-white font-semibold'> 
-          <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Home</Link>
-          <Link to="/about" className='mx-4 hover:text-[#620000] font-poppins'>About</Link>
-          <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Gallery</Link>
-          <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Student's Portal</Link>
-          <Link to="/" className='mx-4 hover:text-[#620000] font-poppins'>Contact</Link>   
+      {/* Hamburger Menu Button (Mobile) */}
+      <button 
+        className="md:hidden text-white text-2xl focus:outline-none"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
+      >
+        {isOpen ? <FiX /> : <FiMenu />}
+      </button>
 
+      {/* Navigation Links */}
+      <div 
+        className={`absolute md:static top-20 left-0 w-full md:w-auto bg-[#115237] md:bg-transparent z-50 
+        transition-all duration-300 ease-in-out ${isOpen ? 'block' : 'hidden md:flex'}`}
+      >
+        <ul className='flex flex-col md:flex-row items-center py-4 md:py-0 space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8 text-white font-semibold'>
+          <li>
+            <Link 
+              to="/" 
+              className='px-4 py-2 hover:text-[#620000] font-poppins transition-colors'
+              onClick={() => setIsOpen(false)}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/about" 
+              className='px-4 py-2 hover:text-[#620000] font-poppins transition-colors'
+              onClick={() => setIsOpen(false)}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/gallery" 
+              className='px-4 py-2 hover:text-[#620000] font-poppins transition-colors'
+              onClick={() => setIsOpen(false)}
+            >
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/portal" 
+              className='px-4 py-2 hover:text-[#620000] font-poppins transition-colors'
+              onClick={() => setIsOpen(false)}
+            >
+              Student's Portal
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/contact" 
+              className='px-4 py-2 hover:text-[#620000] font-poppins transition-colors'
+              onClick={() => setIsOpen(false)}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
+      </div>
 
-
-
-        {/* Search Bar */}
-        <div className='search-bar' style={{ marginLeft: 'auto', marginRight: '30px' }}>
-          <input type="text" placeholder="Search" className='search-input p-3 bg-[#FFFFFF] w-60 rounded-lg font-grey-100 font-xs item-center'/>
+      {/* Search Bar */}
+      <div className='hidden md:flex items-center ml-4'>
+        <div className='relative'>
+          <input 
+            type="text" 
+            placeholder="Search..." 
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className='pl-4 pr-10 py-2 bg-white w-40 lg:w-60 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#620000]'
+          />
+          <FiSearch className="absolute right-3 top-2.5 text-gray-500" />
         </div>
-      </nav>
-    </>
-  )
+      </div>
+
+      {/* Mobile Search (optional) */}
+      {isOpen && (
+        <div className='md:hidden w-full px-4 py-2'>
+          <div className='relative'>
+            <input 
+              type="text" 
+              placeholder="Search..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className='pl-4 pr-10 py-2 bg-white w-full rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#620000]'
+            />
+            <FiSearch className="absolute right-3 top-2.5 text-gray-500" />
+          </div>
+        </div>
+      )}
+    </nav>
+  );
 }
-
-
-
-
