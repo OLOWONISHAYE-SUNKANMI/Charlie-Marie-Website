@@ -43,7 +43,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className='mt-8 md:mt-12 bg-[#115237] w-full py-4'>
-          <p className='text-white text-center text-sm md:text-base'>
+          <p className='text-[#FFFFFF] text-center text-sm md:text-base'>
             Copyright © 2025 | All rights reserved - Charlie Marie Group of Schools.
           </p>
         </div>

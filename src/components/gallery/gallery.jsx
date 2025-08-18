@@ -6,10 +6,25 @@ import "slick-carousel/slick/slick-theme.css";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const images = [
-  '/charlie marie/event-image-slider-1.jpg',
-  '/charlie marie/event-image-slider-2.jpg',
-  '/charlie marie/event-image-slider-3.jpg',
-  '/charlie marie/event-image-slider-4.jpg'
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0101_e5fqku.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517521/IMG-20250812-WA0067_cxnjtq.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517519/IMG-20250812-WA0065_npxq4t.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0099_uzxczu.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517516/IMG-20250812-WA0059_acbfcp.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517517/IMG-20250812-WA0060_zs9xms.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517515/IMG-20250812-WA0083_q8k6hr.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517515/IMG-20250812-WA0058_yagamr.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517513/IMG-20250812-WA0046_pcc6ym.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517513/IMG-20250812-WA0074_o4prm5.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517512/IMG-20250812-WA0076_tnv6vl.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517517/IMG-20250812-WA0062_ytpqyq.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0096_yik0ka.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517521/IMG-20250812-WA0095_tazybs.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517521/IMG-20250812-WA0094_htum6s.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517518/IMG-20250812-WA0066_zfbw0r.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517518/IMG-20250812-WA0064_sxorna.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0101_e5fqku.jpg',
+  'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517520/IMG-20250812-WA0093_k9vp9u.jpg'
 ]
 
 export default function Gallery() {

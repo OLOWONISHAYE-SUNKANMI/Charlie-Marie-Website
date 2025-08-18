@@ -36,7 +36,7 @@ export default function Hero() {
         </div>
 
         {/* Category chips */}
-        <div className="flex justify-start items-center gap-4 py-4 px-4
+        <div className="flex justify-start items-center gap-2 py-4 px-4 
                         overflow-x-auto scrollbar-hide
                         sm:gap-5 sm:py-5 sm:px-6
                         md:gap-6 md:py-6 md:px-8
@@ -54,7 +54,7 @@ export default function Hero() {
               className={`${item.bg} rounded-lg flex-shrink-0 
                           px-4 py-3 min-w-[140px] sm:min-w-[160px] 
                           md:px-5 md:py-4 md:min-w-[180px]
-                          lg:px-6 lg:py-5 lg:min-w-[200px]`}
+                          lg:px-6 lg:py-5 lg:min-w-[120px]`}
             >
               <h3 className="text-white font-semibold font-poppins 
                             text-xs sm:text-sm md:text-base whitespace-nowrap">
