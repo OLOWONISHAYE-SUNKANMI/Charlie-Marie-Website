@@ -3,6 +3,7 @@ import Hero from '../../components/hero/hero';
 import Info from '../../components/info/info';
 import Gallery from '../../components/gallery/gallery';
 import Facilities from '../../components/facilities/facilities'
+import Counter from '../../components/counter/counter'
 
 
 export default function homepage() {
@@ -11,6 +12,7 @@ export default function homepage() {
      <Hero />
       <Info />
       <Gallery />
+      <Counter />
       <Facilities />
     </div>
    

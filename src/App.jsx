@@ -7,6 +7,7 @@ import {
 import './App.css'
 import Home from './pages/homepage/homepage' 
 import About from './pages/about/about'
+import Gallery from './pages/gallery/gallery';
 import Layout from './Layout' 
 
 
@@ -17,6 +18,7 @@ function App() {
          <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />  
+          <Route path='gallery' element={<Gallery />} />
           </Route>
 
          
