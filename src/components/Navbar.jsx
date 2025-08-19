@@ -63,7 +63,7 @@ export default function Navbar() {
         className={`absolute md:static top-20 left-0 w-full md:w-auto bg-[#115237] md:bg-transparent z-50 
         transition-all duration-300 ease-in-out ${isOpen ? 'block' : 'hidden md:flex'}`}
       >
-        <ul className='flex flex-col md:flex-row items-center py-4 md:py-0 space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8 text-white font-semibold'>
+        <ul className='flex flex-col md:flex-row items-center py-4 md:py-0 space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8 px-10 text-white font-semibold'>
           <li>
             <Link 
               to="/" 
@@ -93,11 +93,11 @@ export default function Navbar() {
           </li>
           <li>
             <Link 
-              to="/portal" 
+              to="/blog" 
               className='px-4 py-2 hover:text-[#620000] font-poppins transition-colors'
               onClick={() => setIsOpen(false)}
             >
-              Student's Portal
+              Blog
             </Link>
           </li>
           <li>

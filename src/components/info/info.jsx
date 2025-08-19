@@ -1,5 +1,6 @@
 
 import { Slide, Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 
 export default function Info() {
   return (
@@ -27,15 +28,16 @@ export default function Info() {
               We blend academic excellence with character development, preparing our students for success in life and beyond.
             </p>
             <h3 className='font-bold text-[#115237] mb-3 lg:mb-5'>OUR COMMITMENT</h3>
-            <ul className='space-y-2 text-sm lg:text-base'>
+            <ul className='space-y-2 text-sm lg:text-base mb-10'>
               <li>Quality teaching with experienced educators</li>
               <li>Safe and supportive learning environment</li>
               <li>Integration of technology in education</li>
               <li>Strong moral and ethical values</li>
             </ul>
-            <button className='py-3 px-6 lg:p-5 border-1 mt-5 lg:mt-10 text-[#620000] border-[#620000] hover:bg-[#115237] hover:text-[#FFFFFF] hover:border-none transition-colors duration-300'>
+            <Link to= '/about'
+              className='py-3 px-6 lg:p-5 border-1 mt-5 lg:mt-20 text-[#620000] border-[#620000] hover:bg-[#115237] hover:text-[#FFFFFF] hover:border-none transition-colors duration-300'>
               More about Us
-            </button>
+            </Link>
           </div>
         </Slide>
       </div>
