@@ -2,33 +2,40 @@ import React from 'react'
 
 export default function contactForm() {
   return (
-    <div className=' flex m-10 justify-between items-center' >
+    <div className=' flex m-5 justify-between items-center' >
         <div className='my-5 mx-20'>
             <h4 className='font-poppins text-2xl font-extrabold text-[#115237]'>#Contact</h4>
             <h2 className='font-extrabold text-5xl font-poppins text-[#620000]'>Get in touch with us</h2>
 
           <div className='form my-10 flex items-center justify-center '>
-             <form className='mb-8 max-w-md'>
+             <form className='mb-8'>
+
                 <input 
                 placeholder='Name'
                 type='text'
                 name='name'
                 required
-                className=''
+                className='bg-[#d3d3d3] w-2/5 mr-5  hover:border hover:border-gray-600 h-13  px-4 py-2 rounded'
                 />
-
+    
+               
+           
                 <input 
                 placeholder='Phone No'
-                type='number'
+                type='text'
                 name='number'
                 required
+                className='bg-[#d3d3d3] w-2/5 mr-5 mb-5  hover:border hover:border-gray-600 h-13 px-4 py-2 rounded'
                 />
+         
+               
 
                 <input 
                 placeholder='Type Email Address'
                 required
                 type='email'
                 name='email'
+                className='bg-[#d3d3d3] w-2/5 mr-5 mb-5  hover:border hover:border-gray-600 h-13 px-4 py-2 rounded'
                 />
 
                 <input 
@@ -36,6 +43,7 @@ export default function contactForm() {
                 required
                 type='text'
                 name='text'
+                className='bg-[#d3d3d3] w-2/5 mr-5 mb-5  hover:border hover:border-gray-600 h-13 px-4 py-2 rounded'
                 />
 
                 <textarea 
@@ -43,16 +51,19 @@ export default function contactForm() {
                 required
                 type='text'
                 name='text'
+                className='bg-[#d3d3d3] w-173 mr-5 mb-5  hover:border hover:border-gray-600 h-60 px-4 py-2 rounded'
                 />
 
-                <button>SEND MESSAGE</button>
+              <div className='button w-full justify-center items-center'>
+                  <button className='text-center bg-[#620000] text-[#ffffff] p-5 rounded w-173 hover:bg-[#115237]'>Send Message</button>
+              </div>
 
              </form>
           </div>
         </div>
 
        
-        <div className='p-5 bg-[#ffffff] shadow-md w-60 h-120 rounded mr-20   '>
+        <div className='p-5 bg-[#ffffff] shadow-md w-60 h-130 rounded mr-20   '>
             <p className='my-10 font-bold font-poppins text-[#115237]'>Information</p>
            <div className='py-5'>
                 <p className='font-poppins font-bold text-[16px]'>Email Address</p>
