@@ -14,18 +14,18 @@ const images = [
 
 // PRE-SCHOOL SECTION 
   { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0097_vhjezw.jpg', section: 'pre' },
-  { src: '', section: 'pre' },
-  { src: '', section: 'pre' },
-  { src: '', section: 'pre' },
-  { src: '', section: 'pre' },
-  { src: '', section: 'pre' },
-  { src: '', section: 'pre' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517523/IMG-20250813-WA0006_f4l2fq.jpg', section: 'pre' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517523/IMG-20250813-WA0006_f4l2fq.jpg', section: 'pre' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250813-WA0004_dnqycd.jpg', section: 'pre' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250813-WA0005_ki8lsr.jpg', section: 'pre' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517517/IMG-20250812-WA0087_t4nxvn.jpg', section: 'pre' },
 
 // NURSERY SECTION 
   { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0099_uzxczu.jpg', section: 'nursery' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0099_uzxczu.jpg', section: 'nursery' },
 
 // PRIMARY SECTION
-  { src: '', section: 'primary' },
+  { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517517/IMG-20250812-WA0060_zs9xms.jpg', section: 'primary' },
 
 
 // SECONDARY SECTION
@@ -62,6 +62,7 @@ const images = [
   { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517511/IMG-20250812-WA0049_s1a3na.jpg', section: 'event'},
   { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517511/IMG-20250812-WA0051_xaoemi.jpg', section: 'event'},
    { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517511/IMG-20250812-WA0050_s0uuel.jpg', section: 'event'},
+    { src: 'https://res.cloudinary.com/depeqzb6z/image/upload/v1755517522/IMG-20250812-WA0100_mygbbs.jpg', section: 'event'},
   // Add more images as needed
 ];
 

@@ -33,7 +33,7 @@ export default function Footer() {
               <Link to="/gallery">Gallery</Link>
             </li>
             <li className='text-white hover:text-[#115237] transition-colors'>
-              <Link to="/portal">Student's Portal</Link>
+              <Link to="/blog">Blog</Link>
             </li>
             <li className='text-white hover:text-[#115237] transition-colors'>
               <Link to="/contact">Contact</Link>
