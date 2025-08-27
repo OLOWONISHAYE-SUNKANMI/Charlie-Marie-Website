@@ -12,6 +12,7 @@ import Blog from './pages/blog/blog'
 import Contact from './pages/contact/contact'
 import Layout from './Layout' 
 import Login from './Login'
+import Details from "./pages/blogDetails/blogDetails";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='gallery' element={<Gallery />} />
           <Route path='blog' element={<Blog />}/>
           <Route path='contact' element={<Contact />} />
+          <Route path='content/:id' element= {<Details/>} />
           </Route>
       </>
       

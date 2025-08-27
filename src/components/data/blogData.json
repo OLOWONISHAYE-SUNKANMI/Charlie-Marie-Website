@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Pre-School",
+      "caption": "Building bright futures from the very first step.",
+      "image": "https://res.cloudinary.com/depeqzb6z/image/upload/v1755517516/IMG-20250812-WA0084_vk50ap.jpg",
+      "content": [
+        "Our Pre-School program is designed to provide a safe and nurturing environment for young learners to begin their educational journey. We focus on early childhood development, helping children build confidence and curiosity through structured play and guided learning.",
+        "At this stage, we introduce children to foundational skills such as letter recognition, counting, shapes, and colors in a fun and interactive way. Teachers employ songs, storytelling, and hands-on activities to engage learners effectively.",
+        "The environment is rich with resources to help children develop their motor, social, and communication skills. Each child receives individual attention, ensuring that their unique strengths are encouraged.",
+        "We emphasize values such as kindness, sharing, and teamwork, setting the foundation for character development from an early age.",
+        "Our Pre-School provides a caring space that prepares children both academically and emotionally for the next stage of their learning journey."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Nursery",
+      "caption": "Where curiosity meets learning.",
+      "image": "https://res.cloudinary.com/depeqzb6z/image/upload/v1755517518/IMG-20250812-WA0066_zfbw0r.jpg",
+      "content": [
+        "The Nursery program focuses on building a strong academic foundation while encouraging creativity and exploration. At this stage, children transition from play-based learning to more structured classroom experiences.",
+        "Language development, phonics, and early numeracy are key focuses. Teachers use practical exercises, storytelling, and visual aids to help students grasp new concepts.",
+        "We encourage independence by giving children opportunities to solve problems, make choices, and express their ideas confidently.",
+        "Art, music, and drama are integrated into the curriculum, allowing children to explore their creative abilities while developing confidence and teamwork.",
+        "The Nursery program ensures learners are well-prepared to progress into Primary school with a solid academic and social foundation."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Primary School",
+      "caption": "Laying the foundation for lifelong learning.",
+      "image": "https://res.cloudinary.com/depeqzb6z/image/upload/v1755517521/IMG-20250812-WA0094_htum6s.jpg",
+      "content": [
+        "Our Primary school program provides a well-rounded education that balances academics, creativity, and moral values. This stage focuses on literacy, numeracy, science, and social studies, while also nurturing talents in arts and sports.",
+        "Teachers adopt innovative and interactive methods to make learning engaging. Group work, projects, and discussions are used to encourage critical thinking and problem-solving.",
+        "Character development is at the heart of the program. Students are taught discipline, integrity, and respect for others.",
+        "Technology is introduced to enhance learning, preparing students to adapt to a digital world while strengthening their academic skills.",
+        "The Primary program ensures that children graduate with strong knowledge, creativity, and confidence, ready for the challenges of secondary school."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Secondary School",
+      "caption": "Preparing students for higher education and life beyond.",
+      "image": "https://res.cloudinary.com/depeqzb6z/image/upload/v1755517521/IMG-20250812-WA0067_cxnjtq.jpg",
+      "content": [
+        "Our Secondary school curriculum is designed to equip students with the academic, technical, and leadership skills they need for success in the future. We offer a comprehensive curriculum that prepares them for external examinations and global opportunities.",
+        "Students are encouraged to think critically, conduct research, and engage in debates and group projects that sharpen their intellectual abilities.",
+        "Special focus is placed on career guidance, leadership training, and extracurricular activities that promote personal development.",
+        "Our teachers serve as mentors, guiding students not just academically but also in life skills, ethics, and career readiness.",
+        "With strong academic preparation and life skills, our Secondary school graduates are confident, innovative, and ready for the next stage of their journey."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vocational Center",
+      "caption": "Empowering learners with hands-on skills for the future.",
+      "image": "https://res.cloudinary.com/depeqzb6z/image/upload/v1755517515/IMG-20250812-WA0082_yggbdb.jpg",
+      "content": [
+        "The Vocational center offers practical training that prepares learners to excel in various professions and industries. Students gain hands-on skills that complement their academic knowledge.",
+        "Courses include tailoring, catering, ICT, carpentry, and other technical skills tailored to meet local and global demands.",
+        "Learners are exposed to real-world experiences, ensuring that they are not only skilled but also confident in their craft.",
+        "The center promotes entrepreneurship by teaching students how to start, manage, and grow their businesses.",
+        "Our vocational training ensures that every student graduates with employable skills, ready to contribute meaningfully to society."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Sports Center",
+      "caption": "Building healthy bodies and strong minds through sports.",
+      "image": "https://res.cloudinary.com/depeqzb6z/image/upload/v1755613932/WhatsApp_Image_2025-08-12_at_05.51.48_897f1bc7_u8axpx.jpg",
+      "content": [
+        "Our Sports center provides students with opportunities to explore and develop their athletic potential. Physical fitness and discipline are emphasized through structured programs.",
+        "We offer a variety of sports including football, basketball, athletics, swimming, and indoor games to cater to diverse interests.",
+        "Students learn teamwork, resilience, and leadership while building lifelong healthy habits through regular exercise.",
+        "Professional coaches guide students, ensuring they balance academics with physical excellence.",
+        "The Sports center fosters both recreational and competitive engagement, ensuring every student enjoys the benefits of physical activity."
+      ]
+    }
+  ]
+}
