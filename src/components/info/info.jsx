@@ -20,7 +20,7 @@ export default function Info() {
         
         {/* Content Section */}
         <Slide direction='down'>
-          <div className='w-full lg:w-4/5'>
+          <div className='w-full lg:w-4/5 px-5'>
             <h1 className='font-extrabold font-poppins text-2xl lg:text-3xl text-[#620000]'>About the School</h1>
             <h2 className='mt-2 font-semibold font-poppins text-xl lg:text-2xl text-[#115237]'>Who We Are</h2>
             <p className='mt-5 lg:mt-10 text-sm lg:text-base mb-5'>

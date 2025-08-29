@@ -112,7 +112,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-10 mt-20 w-full px-4 lg:px-10 lg:h-[550px]">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-10 mt-20 w-full px-4 lg:px-10 lg:h-[550px] mb-12 md:mb-0">
       {/* Text Section */}
       <Slide direction="left" triggerOnce>
         <div className="gallery-text text-center lg:text-left max-w-sm lg:max-w-md">
