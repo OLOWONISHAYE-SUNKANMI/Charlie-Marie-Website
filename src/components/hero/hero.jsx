@@ -36,33 +36,34 @@ export default function Hero() {
         </div>
 
         {/* Category chips */}
-        <div className="flex justify-start items-center gap-2 py-4 px-4 
-                        overflow-x-auto scrollbar-hide
-                        sm:gap-5 sm:py-5 sm:px-6
-                        md:gap-6 md:py-6 md:px-8
-                        lg:justify-center lg:overflow-visible lg:gap-8 lg:py-8">
-          {[
-            { title: "PRE-SCHOOL", bg: "bg-[#EF4444]" },
-            { title: "NURSERY SCHOOL", bg: "bg-[#10B981]" },
-            { title: "PRIMARY SCHOOL", bg: "bg-[#F59E0B]" },
-            { title: "SECONDARY SCHOOL", bg: "bg-[#78350F]" },
-            { title: "VOCATIONAL SCHOOL", bg: "bg-[#3B82F6]" },
-            { title: "SPORT ACADEMY", bg: "bg-[#F97316]" },
-          ].map((item, index) => (
-            <div 
-              key={index}
-              className={`${item.bg} rounded-lg flex-shrink-0 
-                          px-4 py-3 min-w-[140px] sm:min-w-[160px] 
-                          md:px-5 md:py-4 md:min-w-[180px]
-                          lg:px-6 lg:py-5 lg:min-w-[120px]`}
-            >
-              <h3 className="text-white font-semibold font-poppins 
-                            text-xs sm:text-sm md:text-base whitespace-nowrap">
-                {item.title}
-              </h3>
-            </div>
-          ))}
-        </div>
+<div
+  className="grid grid-cols-2 gap-3 py-4 px-4
+             sm:grid-cols-3 sm:gap-5 sm:py-5 sm:px-6
+             md:grid-cols-3 md:gap-6 md:py-6 md:px-8
+             lg:grid-cols-6 lg:gap-8 lg:py-8 lg:px-10"
+>
+  {[
+    { title: "PRE-SCHOOL", bg: "bg-[#EF4444]" },
+    { title: "NURSERY SCHOOL", bg: "bg-[#10B981]" },
+    { title: "PRIMARY SCHOOL", bg: "bg-[#F59E0B]" },
+    { title: "SECONDARY SCHOOL", bg: "bg-[#78350F]" },
+    { title: "VOCATIONAL SCHOOL", bg: "bg-[#3B82F6]" },
+    { title: "SPORT ACADEMY", bg: "bg-[#F97316]" },
+  ].map((item, index) => (
+    <div
+      key={index}
+      className={`${item.bg} rounded-lg px-4 py-3 
+                  sm:px-5 sm:py-4 
+                  md:px-6 md:py-5`}
+    >
+      <h3 className="text-white font-semibold font-poppins 
+                     text-xs sm:text-sm md:text-base text-center">
+        {item.title}
+      </h3>
+    </div>
+  ))}
+</div>
+
       </Fade>
     </div>
   );

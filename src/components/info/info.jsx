@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Info() {
   return (
-    <div className='container mx-auto px-2 pt-30'>
+    <div className='container mx-auto mx-2 pt-30'>
       <div className='flex flex-col lg:flex-row justify-center items-center'>
         {/* Image Section - Visible on all screens */}
         <Fade direction='top-left'>
